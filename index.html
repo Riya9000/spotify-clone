@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favorite Music Is Here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Ram Siya Ram</span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i id="1"
+                            class="fa songItemPlay -regular fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/cover2.jpg" alt="2">
+                    <span class="songName">Aaj ke baad</span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i id="2"
+                            class="fa songItemPlay -regular fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/cover3.jpg" alt="3">
+                    <span class="songName">Tere Hawaale</span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i id="3"
+                            class="fa songItemPlay -regular fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/cover4.jpg" alt="4">
+                    <span class="songName">Tere Vaaste</span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i id="4"
+                            class="fa songItemPlay -regular fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/cover5.jpg" alt="5">
+                    <span class="songName">zihaal e miskin</span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span><i id="5"
+                            class="fa songItemPlay -regular fa-circle-play"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa fa-3x solid fa-step-backward" id="previous"></i>
+            <i class="fa fa-3x light fa-circle-play" id="masterPlay"></i>
+            <i class="fa fa-3x solid fa-step-forward" id="next"></i>
+
+        </div>
+        <div class="songInfo">
+            <img src="playing1.gif" width="89px" alt="" id="gif"> <span id="masterSongName">Ram-Siya-Ram</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
